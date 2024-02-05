@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waiters", "Waiters\Waiters.csproj", "{8DDCB7E8-E5A0-4259-87F0-D074173FA710}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qoopi.Waiter", "Qoopi.Waiter\Qoopi.Waiter.csproj", "{8DDCB7E8-E5A0-4259-87F0-D074173FA710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qoopi.Waiter.Tests.Benchmark", "Qoopi.Waiter.Tests.Benchmark\Qoopi.Waiter.Tests.Benchmark.csproj", "{2A7C7D45-2662-4EE1-A8B5-D3C3F9690F98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{8DDCB7E8-E5A0-4259-87F0-D074173FA710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DDCB7E8-E5A0-4259-87F0-D074173FA710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DDCB7E8-E5A0-4259-87F0-D074173FA710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7C7D45-2662-4EE1-A8B5-D3C3F9690F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7C7D45-2662-4EE1-A8B5-D3C3F9690F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7C7D45-2662-4EE1-A8B5-D3C3F9690F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7C7D45-2662-4EE1-A8B5-D3C3F9690F98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -2,7 +2,7 @@
 using Polly;
 using static Polly.Policy;
 
-namespace Waiters;
+namespace Qoopi.Waiter;
 
 public static class WaitHelper
 {
@@ -13,7 +13,7 @@ public static class WaitHelper
         Options = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", false, true)
-            .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("")}.json", false, true)
+            .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", true)
             .AddEnvironmentVariables()
             .Build()
             .GetSection(nameof(WaitOptions))

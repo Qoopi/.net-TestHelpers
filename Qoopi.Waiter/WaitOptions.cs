@@ -1,4 +1,4 @@
-namespace Waiters;
+namespace Qoopi.Waiter;
 
 public record WaitOptions
 {
