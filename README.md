@@ -1,1 +1,1 @@
-Simple helper using Microsoft.Extensions and Polly libraries.
+Simple waiting helper using Microsoft.Extensions and Polly libraries.
