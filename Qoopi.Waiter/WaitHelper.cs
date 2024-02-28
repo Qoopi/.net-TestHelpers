@@ -6,13 +6,13 @@ namespace Qoopi.Waiter;
 
 public static class WaitHelper
 {
-    public static readonly WaitOptions Options;
+    private static readonly WaitOptions Options;
 
     static WaitHelper()
     {
         Options = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettings.json", false, true)
+            .AddJsonFile("appsettings.json", true, true)
             .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", true)
             .AddEnvironmentVariables()
             .Build()
